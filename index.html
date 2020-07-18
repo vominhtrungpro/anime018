@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/csschung.css">
+    <script src="./JAVASCRIPT/java.js"></script>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <style>
+        body {
+            background-image: url('../IMG/bganime.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="topnav" >
+        <a class="active" href="./index.html"><img src="./IMG/logo.png" width="30px" alt="Trang chủ"> Trang chủ</a>
+        <a href="./HTML/Đangky11.html">Đăng ký</a>
+        <a href="./HTML/Đangnhap11.html">Đăng nhập</a>
+        <a href="./HTML/search.html">Tìm kiếm</a>
+        <a href="./HTML/feedback.html">Góp ý</a>
+    </div>
+    <div>
+        <center>
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr border="0">
+                    <td width="32" cellspacing="0" cellpadding="0" class="menu_header"><a href="./HTML/anime1.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','./IMG/button_anime_hover.png',1)"><img src="./IMG/button_anime.png" alt="Anime" name="Image1" border="0" id="Image1" title="Anime"></a></td>
+                    <td width="32" cellspacing="0" cellpadding="0" class="menu_header"><a href="./HTML/manga.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','./img/button_manga_hover.png',1)"><img src="./IMG/button_manga.png" alt="Manga" name="Image2" border="0" id="Image2" title="Manga"></a></td>
+                    <td width="32" cellspacing="0" cellpadding="0" class="menu_header"><a href="../HTML/musicvideo.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','./img/button_music-video_hover.png',1)"><img src="./IMG/button_music-video.png" alt="Music Video" name="Image3" border="0" id="Image3" title="Music Video"></a></td>
+
+                </tr>
+            </table>
+        </center>
+        
+    </div>
+    <div class="bannermegumi">
+    </div>
+    <center>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Thu nhỏ / Hiển thị nội dung trang chủ</button>
+        <div id="demo" class="collapse in">
+            <div>
+                <table class="khungchinh kcborder" width="1100px" cellpadding="0" cellspacing="0" border="0" align="center">
+                    <tr>
+                        <td class="tcat ecard_header" align="center" colspan="2">Nội dung trang chủ</td>
+                    </tr>
+                    <tr>
+                        <td border="0" align="left" width="10%">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./IMG/chuunibyou.jpg" alt="Avatar" style="width:300px;height:300px;">
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <img src="./IMG/sagari.jpg" style="width:300px;height:300px;">
+                                  </div>
+                                </div>
+                              </div>
+                        </td>
+                        <td width="90%" id="vnsharing_eventbox_banner" align="center" valign="top" border="0" background="./IMG/eventbg.jpg"><center>Hôm nay là:<body onload="time()">
+                            <div id="clock"></div></center><center><h3>Chào mừng bạn đến với website</h3></center> 
+                        </td>
+                        </tr>
+
+                </table>
+            </div>
+        </div>
+    </center>
+    
+    
+</body>
+</html>

@@ -1,0 +1,154 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.bannermegumi {
+    background:transparent url(../IMG/banner.jpg) no-repeat 50% ;
+    height: 174px;
+    width: 100%;
+}
+.khungchinh {
+    background-color: #fff!important;
+}
+.kcborder {
+    background: #e3e3e3;
+    color: #000;
+    border: 1px solid #0075c9;
+}
+.tcat {
+    background: #0075c9 url(../IMG/tcat.gif) repeat-x top left;
+    color: #fff;
+    padding: 6px;
+    font: 700 10pt aria,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 0px solid #f1f1f1;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+.flip-card-front {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.flip-card-back {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transform: rotateY(180deg);
+}
+.ex1 {
+    background-color:white;
+    width: 1100px;
+    height: 300px;
+    overflow: scroll;
+}
+.mvnews{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.mvarticle {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    vertical-align:top;
+}
+.mvthumb {
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.mvtitle {
+    width: 750px;
+    height: 100px;
+    background-color:white;
+    float: center;
+}
+/* css rieng*/
+.thumb {
+    width: 160px;
+    height: 200px;
+    background-color: #ffffff;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 5px;
+}
+.news{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.article {
+    width: 180px;
+    height: 220px;
+    display: inline-block;
+    padding: 0px;
+    padding-bottom: 280px;
+    padding-left: 30px;
+    margin-left: 0px;
+    vertical-align:top;
+}
+.article1 {
+    width: 180px;
+    height: 220px;
+    display: inline-block;
+    padding: 0px;
+    padding-bottom: 280px;
+    padding-left: 30px;
+    margin-left: 0px;
+    vertical-align:top;
+  }
+.xemphim{
+    width: 100px;
+    height: 40px;
+    margin-top: 4px;
+}

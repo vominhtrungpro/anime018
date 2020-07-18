@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góp ý</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/csschung.css">
+    <script src="../JAVASCRIPT/java.js"></script>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <style>
+        body {
+            background-image: url('../IMG/bganime.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        </style>
+        <style>
+          body {font-family: Arial, Helvetica, sans-serif;}
+          * {box-sizing: border-box;}
+          
+          input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+          input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #45a049;
+          }
+          
+          .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+          </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="topnav" >
+        <a href="../index.html"><img src="../IMG/logo.png" width="30px" alt="Trang chủ"> Trang chủ</a>
+        <a href="../HTML/Đangky11.html">Đăng ký</a>
+        <a href="../HTML/Đangnhap11.html">Đăng nhập</a>
+        <a href="../HTML/search.html">Tìm kiếm</a>
+        <a class="active" href="../HTML/feedback.html">Góp ý</a>
+    </div>
+    <div>
+        <center>
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr border="0">
+                    <td width="32" cellspacing="0" cellpadding="0" class="menu_header"><a href="../HTML/anime1.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','../IMG/button_anime_hover.png',1)"><img src="../IMG/button_anime.png" alt="Anime" name="Image1" border="0" id="Image1" title="Anime"></a></td>
+                    <td width="32" cellspacing="0" cellpadding="0" class="menu_header"><a href="../HTML/manga.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','../img/button_manga_hover.png',1)"><img src="../IMG/button_manga.png" alt="Manga" name="Image2" border="0" id="Image2" title="Manga"></a></td>
+                    <td width="32" cellspacing="0" cellpadding="0" class="menu_header"><a href="../HTML/musicvideo.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','../img/button_music-video_hover.png',1)"><img src="../IMG/button_music-video.png" alt="Music Video" name="Image3" border="0" id="Image3" title="Music Video"></a></td>
+
+                </tr>
+            </table>
+        </center>
+        
+    </div>
+    
+    </div>
+    <center>
+        
+            <div>
+                <table class="khungchinh kcborder" width="700px" cellpadding="0" cellspacing="0" border="0" align="center">
+                    <tr>
+                        <td class="tcat ecard_header" align="center" colspan="">Gửi phản hồi</td>
+                    </tr>
+                    <tr>
+                        <td>
+                          <div class="container">
+                            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                              <label for="fname">Họ</label>
+                              <input type="text" id="fname" name="firstname" placeholder="Họ của bạn..">
+                          
+                              <label for="lname">Tên</label>
+                              <input type="text" id="lname" name="lastname" placeholder="Tên của bạn..">
+                          
+                              <label for="country">Country</label>
+                              <select id="country" name="country">
+                                <option value="australia">Việt Nam</option>
+                                <option value="canada">Nhật Bản</option>
+                                <option value="usa">Hàn Quốc</option>
+                                <option value="usa">Mỹ</option>
+                                <option value="usa">Singapo</option>
+                              </select>
+                          
+                              <label for="subject">Góp ý</label>
+                              <textarea id="subject" name="subject" placeholder="Viết gì đó.." style="height:200px"></textarea>
+                          
+                              <input type="submit" value="Gửi">
+                            </form>
+                          </div>
+                        </td>  
+                    </tr>
+
+                </table>
+            </div>
+        
+    </center>
+    
+    
+</body>
+</html>
